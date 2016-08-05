@@ -35,7 +35,7 @@ Node.js
 Programa para descomprimir arquivos.(Ex.: Winrar, Winzip)
 
 Passo 1:
-Instalar o Node.js com o pacote npm (https://nodejs.org) version v6.3.1 ou a Corrente/Atual
+Instalar o Node.js com o pacote npm (https://nodejs.org) versão v6.3.1 ou a Corrente/Atual
 
 Passo 2: 
 Clonar este projeto via git/github ou realizar o Download e descompactar o arquivo.
