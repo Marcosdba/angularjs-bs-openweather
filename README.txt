@@ -41,9 +41,17 @@ Passo 2:
 Clonar este projeto via git/github ou realizar o Download e descompactar o arquivo.
 
 Passo 3:
-Iniciar seu programa de prompt de comando favorito, entrar na pasta que descompactou e executar o comando: npm install (para baixar possíveis dependencias) e após executar o comando npm start para iniciar o servidor com o deploy da aplicação que ficará disponível em http://localhost:3000
+Iniciar seu programa de prompt de comando favorito.
+Entrar na pasta que descompactou e executar o comando: npm install (para baixar possíveis dependencias) 
+e após executar o comando npm start (para iniciar o servidor)
+com o deploy da aplicação que ficará disponível em http://localhost:3000
 
-Caso seja necessário solicite uma ajuda através do e-mail : mattbidas@gmail.com
+
+Caso seja necessário solicite uma ajuda através do e-mail : mattbidas@gmail.com.
+
+Envie também suas críticas e sugestões se achar necessário.
+
+
 
 
 
