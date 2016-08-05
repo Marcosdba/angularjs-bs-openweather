@@ -1,4 +1,4 @@
-# angularjs-openweather
+
 Welcome to the angularjs-openweather with Bootstrap !
 
 This a single page application. This is simple, type the City name to request weather 
@@ -24,6 +24,9 @@ If your need a help send message at mattbidas@gmail.com
 
 Thanks !!!
 
+Bem vindo à Aplicação de Verificação do Clima com AngularJs e Bootstrap utilizando a API do OpenWeatherMap
+
+Esta é uma Aplicação de página única (single page) , simples com o intuito de verificar o clima na cidade pesquisada.
 
 Como usar esta aplicação ?
 
