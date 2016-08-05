@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="clima">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Clima</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/lib/angular.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/controllers/clima-controller.js"></script>
+    </head>
+    <body ng-controller="ClimaController">   
+ <div class="container">
+        <div class="jumbotron">
+            <!-- <h1 class="text-center">Clima</h1>             -->
+            <img src="imgs/clima.png" width="150" height="150" alt="Clima e Tempo" class="img img-responsive center-block">
+        </div>
+<form  name="formulario" ng-submit="submeter()">
+    <input type="text" name="cidade" class="form-control" ng-model="clima.cidade" placeholder="Digite o nome da cidade e pressione enter ou clique em Ver Temperatura..." required>
+<button type="submit" class="btn btn-primary btn-block">Ver Temperatura...</button>
+     </form>
+
+        <div class="panel panel-default" >
+
+            <div class="panel-heading" ng-show="showThePanel">
+                <h3 class="panel-title">Clima da Cidade de {{clima.name}}</h3>
+                <h2 class="panel-title">Temperatura atual : {{clima.main.temp | number:0}}º</h2>
+
+            </div>
+       
+         <div class="panel-body" >
+             <div class="alert alert-error error" ng-show="showThePanelAlert">
+                <span>Ocorreu um erro !!! Verifique a conexão com a Internet !</span>
+             </div>             
+         </div>
+        
+                
+        </div> <!-- fim do panel -->
+        </div> <!-- fim container -->        
+    </body>
+</html>
